@@ -78,7 +78,7 @@ public class DesktopSystemTray {
         itemNameMap.put("ViewLF",new ItemName("View Log File","查看日志"));
         itemNameMap.put("Status",new ItemName("Status","钱包状态"));
         itemNameMap.put("Initializing",new ItemName("Initializing","初始化中"));
-        itemNameMap.put("ShutdownTips",new ItemName("Sure you want to shutdown COS?\n\nIf you do, this will stop forging and account monitors.\n\n","你确定要关闭COS吗?\n\n关闭将会导致无法锻造和监视账户变动!\n\n"));
+        itemNameMap.put("ShutdownTips",new ItemName("Sure you want to shutdown COS?\n\n","你确定要关闭COS吗?\n\n"));
         itemNameMap.put("Installation",new ItemName("Installation","显示窗口"));
         itemNameMap.put("Application",new ItemName("Application","程序"));
         itemNameMap.put("Network",new ItemName("Network","网络"));
@@ -93,14 +93,14 @@ public class DesktopSystemTray {
         itemNameMap.put("Timestamp",new ItemName("Timestamp","时间戳"));
         itemNameMap.put("Time",new ItemName("Time","时间"));
         itemNameMap.put("SecondsP",new ItemName("Seconds passed","过去秒数"));
-        itemNameMap.put("Forging",new ItemName("Forging","锻造中"));
-        itemNameMap.put("ForgingA",new ItemName("Forging accounts","锻造账户"));
+        itemNameMap.put("Forging",new ItemName("Forging","挖矿中"));
+        itemNameMap.put("ForgingA",new ItemName("Forging accounts","挖矿账户"));
         itemNameMap.put("Environment",new ItemName("Environment","环境信息"));
         itemNameMap.put("NumberOP",new ItemName("Number of peers","节点数量"));
         itemNameMap.put("Unavailable",new ItemName("Unavailable","不可用"));
         itemNameMap.put("TestNet",new ItemName("TestNet","测试网络"));
         itemNameMap.put("MainNet",new ItemName("MainNet","正式网络"));
-        itemNameMap.put("AvailableP",new ItemName("Available processors","锻造者"));
+        itemNameMap.put("AvailableP",new ItemName("Available processors","矿工"));
         itemNameMap.put("MaxM",new ItemName("Max memory","最大内存"));
         itemNameMap.put("TotalM",new ItemName("Total memory","占用内存"));
         itemNameMap.put("FreeM",new ItemName("Free memory","空闲内存"));
